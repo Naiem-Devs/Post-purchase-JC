@@ -1,0 +1,106 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .order__step ul li:before{
+    width: 120px;
+}
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .order__step ul li:before{
+        width: 99px;
+    }
+    .input__blk{
+        margin-bottom: 1rem;
+    }
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-lg-6.orderChange {
+        order: 1;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .order__step ul li:before{
+        width: 2px;
+        height: 50px;
+        left: 8px;
+    }
+    .input__blk{
+        margin-bottom: 1rem;
+    }
+    .order__step ul {
+        flex-direction: column;
+    }
+    
+    .order__step ul li {
+        display: flex;
+        padding-bottom: 20px;
+    }
+    
+    .order__step ul li:last-child {
+        padding-bottom: 0;
+    }
+    
+    .order__step ul li small {
+        line-height: 1.5;
+        font-size: 11px;
+        margin-left: 6px;
+    }
+    
+    .order__step ul li i {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 14px;
+    }
+    
+    .order__step ul li h6 br {
+        display: none;
+    }
+    
+    .order__info ul {
+        width: 100%;
+    }
+    
+    .order__btm {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .top__content h4 {
+        font-size: 20px;
+    }
+    
+    .top__content span {
+        font-size: 16px;
+    }
+    
+    .df-text p {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .col-lg-6.orderChange {
+        order: 1;
+    }
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
